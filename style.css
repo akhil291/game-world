@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+.background{
+	background-color:yellowgreen;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.heading{
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 2;
+	font-family:poppins;
+}
+.title{
+	text-align: center;
+}
+.headings {
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+	margin-bottom: 2rem;
+}
+.headings .bx{
+	font-size: 21px;
+	color: white;
+	background: darkred;
+	padding: 10px;
+	border-radius: 5rem;
+}
+.headings h2{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.box-text {
+	width: 80%;
+	box-shadow: 0 0 4px 3px yellow;
+	padding: 2em;
+	margin-bottom: 4em;
+}
+
+
+.rating-download{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.rating {
+	display: flex;
+	align-items: center;
+	column-gap: 4px;
+	background: hsl(0, 0%, 100%, 0.4);
+	padding: 4px 10px;
+	border-radius: 0.5rem;
+}
+.editor{
+	display: flex;
+	align-items: center;
+
+}
+.rating span {
+	color: blue;
+	font-size: 0.9rem;
+}
+.box-btn .bx{
+	padding: 4px;
+	background: white;
+	border-radius: 5rem;
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+.box-btn .bx:hover {
+	background: white;
+}
+.images{
+	width: 80%;
+}
+.trending-content-swiper{
+	float: left;
+	width: 30%;
+}
